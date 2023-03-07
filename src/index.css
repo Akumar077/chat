@@ -1,0 +1,77 @@
+.app-wrapper {
+  height: calc(100vh);
+}
+
+.login-wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 12px;
+}
+
+.channel-selector {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.channel-selector__icons {
+  display: flex;
+}
+
+.channel-selector__icons__icon {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+
+  background-color: #e2dfff;
+  color: #7b53ef;
+}
+
+.customized-app {
+  height: 90%;
+}
+
+.customized-settings {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: solid 1px black;
+}
+
+.customized-settings--inner {
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.customized-settings__exit-button {
+  font-size: 20px;
+  text-align: center;
+  background-color: grey;
+  color: black;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.member-check-item {
+  box-sizing: border-box;
+  width: 280px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 60px 0px 20px;
+  margin: 20px 0px;
+}
